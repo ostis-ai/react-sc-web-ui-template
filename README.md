@@ -4,13 +4,13 @@ This project is a starting point to create web interfaces for OSTIS in React. He
 
 ## Build and run a demo
 - Install yarn (example for Ubuntu: `sudo apt install yarn`)
-- Install dependencies and run a dev server: `yarn && yarn run webpack-dev`
-- Run sc-server: 
+- Install dependencies and run a dev server: `yarn && yarn run start`
+- Run `sc-server` from `sc-machine` (our API server): 
 ```
 cd <path-to-sc-machine>/scripts
 ./run_sc_server.sh
 ```
-- Open URL http://localhost:8090/ in web browser
+- Open URL http://localhost:3003 in web browser
 ![](https://i.imgur.com/wibISSV.png)
 
 ## Example of button with handler creation
